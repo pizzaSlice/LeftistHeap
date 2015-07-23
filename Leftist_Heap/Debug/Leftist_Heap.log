@@ -1,0 +1,75 @@
+﻿Build started 7/22/2015 9:00:11 PM.
+     1>Project "C:\Users\Fox\Desktop\Forest\Leftist_Heap\Leftist_Heap\Leftist_Heap.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Leftist_Heap.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Leftist_heap_driver.cpp
+         Leftist_heap_driver.cpp
+     1>c:\users\fox\desktop\forest\leftist_heap\leftist_heap\ece250.h(507): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\fox\desktop\forest\leftist_heap\leftist_heap\ece250.h(546): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap.h(182): warning C4101: 'u' : unreferenced local variable
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap.h(165) : while compiling class template member function 'int Leftist_heap<Type>::pop(void)'
+                 with
+                 [
+                     Type=int
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\tester.h(154) : see reference to class template instantiation 'Leftist_heap<Type>' being compiled
+                 with
+                 [
+                     Type=int
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\tester.h(78) : while compiling class template member function 'int Tester<Class_name>::run(void)'
+                 with
+                 [
+                     Class_name=Leftist_heap<int>
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap_tester.h(26) : see reference to class template instantiation 'Tester<Class_name>' being compiled
+                 with
+                 [
+                     Class_name=Leftist_heap<int>
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap_driver.cpp(68) : see reference to class template instantiation 'Leftist_heap_tester<Type>' being compiled
+                 with
+                 [
+                     Type=int
+                 ]
+     1>c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap.h(182): warning C4101: 'u' : unreferenced local variable
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap.h(165) : while compiling class template member function 'double Leftist_heap<Type>::pop(void)'
+                 with
+                 [
+                     Type=double
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\tester.h(154) : see reference to class template instantiation 'Leftist_heap<Type>' being compiled
+                 with
+                 [
+                     Type=double
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\tester.h(78) : while compiling class template member function 'int Tester<Class_name>::run(void)'
+                 with
+                 [
+                     Class_name=Leftist_heap<double>
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap_tester.h(26) : see reference to class template instantiation 'Tester<Class_name>' being compiled
+                 with
+                 [
+                     Class_name=Leftist_heap<double>
+                 ]
+                 c:\users\fox\desktop\forest\leftist_heap\leftist_heap\leftist_heap_driver.cpp(72) : see reference to class template instantiation 'Leftist_heap_tester<Type>' being compiled
+                 with
+                 [
+                     Type=double
+                 ]
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fox\Desktop\Forest\Leftist_Heap\Debug\Leftist_Heap.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Leftist_Heap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Fox\Desktop\Forest\Leftist_Heap\Debug\Leftist_Heap.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fox\Desktop\Forest\Leftist_Heap\Debug\Leftist_Heap.lib" /MACHINE:X86 Debug\Leftist_heap_driver.obj
+         LINK : C:\Users\Fox\Desktop\Forest\Leftist_Heap\Debug\Leftist_Heap.exe not found or not built by the last incremental link; performing full link
+         Leftist_Heap.vcxproj -> C:\Users\Fox\Desktop\Forest\Leftist_Heap\Debug\Leftist_Heap.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Fox\Desktop\Forest\Leftist_Heap\Debug\Leftist_Heap.exe;#1" /manifest Debug\Leftist_Heap.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Leftist_Heap.unsuccessfulbuild".
+         Touching "Debug\Leftist_Heap.lastbuildstate".
+     1>Done Building Project "C:\Users\Fox\Desktop\Forest\Leftist_Heap\Leftist_Heap\Leftist_Heap.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23
